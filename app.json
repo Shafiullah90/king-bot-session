@@ -1,21 +1,15 @@
-
 {
-    "name": "king-bot-session",
+    "name": "pair session",
     "description": "Web Session Generator",
-    "logo": "https://files.catbox.moe/7ewe7z.jpeg",
-    "repository": "https://github.com/Shafiullah90/king-botsession",
-    "keywords": ["Malvin-Tech"],
+    "logo": "https://i.imgur.com/teQzVR1.jpeg",
+    "repository": "https://github.com/Shafiullah90/king-bot-session",
+    "keywords": ["MalvinTech","XdKing2"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
       "PORT": {
         "description": "Port for web app.4000,5000,3000... any!",
         "value": "5000",
-        "required": false 
-      },
-      "MESSAGE": {
-        "description": "Just Leave This Blank",
-        "value": "",
         "required": false 
       }
     }   
